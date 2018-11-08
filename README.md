@@ -41,7 +41,9 @@ http://localhost:8080/specialPhoneNumber
 	"specialNumber" : 9999999999
 }
 
-By Default 2 tables are created in Database by names "Offered" and "Hired".
+Two Tables are created.
+One will store current phone number count.
+Other table will store the client to which phone number is allotted.
 
 
 Please enter correct values in url path so as to avoid any kind of exception as all the corner cases aren't handled here.
