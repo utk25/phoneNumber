@@ -1,4 +1,4 @@
-package com.company.phonenumber.model;
+package com.company.phonenumber.servicemodel;
 
 
 import lombok.Data;

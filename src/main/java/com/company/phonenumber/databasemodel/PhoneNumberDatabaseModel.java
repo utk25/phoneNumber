@@ -1,6 +1,6 @@
-package com.company.phonenumber.model;
+package com.company.phonenumber.databasemodel;
 
-import com.company.phonenumber.constants.PhoneNumber;
+import com.company.phonenumber.constants.PhoneNumberConstants;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -16,7 +16,7 @@ public class PhoneNumberDatabaseModel {
     private Integer id;
 
     @Column(name = "number")
-    private Long number = PhoneNumber.STARTING_NUMBER;
+    private Long number = PhoneNumberConstants.STARTING_NUMBER;
 }
 
 

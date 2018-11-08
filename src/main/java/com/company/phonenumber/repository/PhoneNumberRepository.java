@@ -1,7 +1,7 @@
 package com.company.phonenumber.repository;
 
 
-import com.company.phonenumber.model.PhoneNumberDatabaseModel;
+import com.company.phonenumber.databasemodel.PhoneNumberDatabaseModel;
 import org.springframework.data.jpa.repository.Lock;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

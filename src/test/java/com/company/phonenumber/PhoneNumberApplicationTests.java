@@ -1,4 +1,4 @@
-package com.interview.interviewpipeline;
+package com.company.phonenumber;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class InterviewpipelineApplicationTests {
+public class PhoneNumberApplicationTests {
 
     @Test
     public void contextLoads() {

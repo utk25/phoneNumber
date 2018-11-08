@@ -1,6 +1,6 @@
 package com.company.phonenumber.postSetup;
 
-import com.company.phonenumber.model.PhoneNumberDatabaseModel;
+import com.company.phonenumber.databasemodel.PhoneNumberDatabaseModel;
 import com.company.phonenumber.service.PhoneNumberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
